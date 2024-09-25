@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Project Euler - Project 1
+
+using System;
 
 namespace Practice
 {
@@ -17,12 +19,8 @@ namespace Practice
                 {
                     total = total + i;
                 }
-                else
-                {
-                    continue;
-                }
-            }
             Console.WriteLine(total);
+            }
         }
     }
 }
